@@ -1,0 +1,12 @@
+#png-1 {
+    background-image: $png-1;
+    height: 250px;
+    width: 800px;
+    transform: scale(.5,.5);
+    object-fit: cover;
+    background-position: center;
+    opacity: 1;
+    transition: opacity 2s ease-in-out;
+    position: absolute;
+  
+  }

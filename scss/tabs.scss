@@ -1,0 +1,31 @@
+.tab {
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 5px 10px 20px inset #bff5f5;
+    border-radius: 15px;
+  
+  .img-1 {
+    background-image: $img-1;
+    @include img-style;  
+  
+  }
+  .img-2 {
+    background: $img-2;
+    @include img-style;
+  }
+
+  .img-3 {
+    background: $img-3;
+    @include img-style;
+  }
+  
+  .tab p {
+    line-height: 30px;
+    text-align: justify;
+    width: 90%;
+    margin: auto;
+    padding-bottom: 20px;
+  }
+}
+  

@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: $img-background;
+    color: $text-color;
+    text-align: center;
+    font-family: "Space Grotesk";
+    line-height: 50px;
+    height: 100vh;
+  }

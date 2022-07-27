@@ -1,0 +1,7 @@
+@mixin img-style {
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    background-position: center;
+  } 

@@ -1,0 +1,39 @@
+button {
+    position: relative;
+    background: transparent;
+    color: $text-color;
+    padding: 20px;
+    margin: 20px, ;
+    font-size: medium;
+    border-radius: 10px;
+    transition: 0.3s;
+    
+  }
+  
+  button:hover {
+    cursor: pointer;
+    background-image: $background-image;
+    color: $text-color;
+    
+  }
+  
+  button::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 5%;
+    background: $text-color;
+    transition: width 0.3s;
+  }
+  
+  button:hover:before {
+    width: 100%;
+  }
+  
+  .selected {
+    background-image: $background-image;
+    color: $text-color;
+    
+  }
